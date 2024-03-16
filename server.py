@@ -2,7 +2,7 @@ from flask import Flask, request, jsonify
 import anthropic
 
 app = Flask(__name__)
-API_KEY = "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"  # Replace with your actual API key
+#API_KEY =   # Replace with your actual API key
 client = anthropic.Anthropic(api_key=API_KEY)
 
 
